@@ -10,7 +10,10 @@
     "dev": "npm-run-all clean parcel:serve",
     "build": "npm-run-all clean stylelint parcel:build",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'",
-    "stylelint": "stylelint src/**/*.scss"
+    "stylelint": "stylelint src/**/*.scss",
+    "validate": "npm-run-all stylelint build validate-css validate-html",
+    "validate-css": "css-validator",
+    "validate-html": "html-validator ./dist"
   },
   "targets": {
     "web": {
@@ -38,6 +41,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "autoprefixer": "^10.4.15",
+    "css-validator": "^0.11.0",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.12.0",
     "postcss-preset-env": "^9.1.1",
@@ -47,7 +51,8 @@
     "stylelint": "^16.10.0",
     "stylelint-config-recess-order": "^5.1.1",
     "stylelint-config-recommended-scss": "^14.1.0",
-    "stylelint-scss": "^6.8.1"
+    "stylelint-scss": "^6.8.1",
+    "w3c-html-validator": "^1.8.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
