@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "https://github.com/smb-uoc/html-css-tools-2-pec1.git"
   },
   "author": {
     "name": "Silvia Martínez Báez",
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
   },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://smb-uoc-vigo.netlify.app/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "autoprefixer": "^10.4.15",

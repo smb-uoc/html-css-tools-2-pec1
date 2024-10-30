@@ -1,8 +1,10 @@
-# UOC Boilerplate
+# PEC 1
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
+This project contains the code for the evaluation PEC 1 of the  HTML and CSS Tools 2 course from the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu).
 
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
+In this PEC, I embark on the development of a website dedicated to the comarca of Vigo, a place with a rich history, stunning landscapes, and vibrant culture.
+
+The page will provide information about the main points of interest in the comarca, including monuments, hiking routes, and other local attractions. Visitors will be able to explore what Vigo has to offer, with an attractive and responsive design that adapts to different devices.
 
 ## Requirements
 
@@ -46,7 +48,7 @@ Using the Terminal, navigate to the project folder and run `npm install`.
 - Development server launch and live reloading on file changes.
 - Friendly error reporting.
 
-## How to use this boilerplate
+## How to use this application
 
 Content lives inside the `src/` folder. If you do not want to change the configuration or are unsure about what you are doing, do not edit files outside the `src/` folder.
 
@@ -60,9 +62,3 @@ Always run the following commands during the development stage and for productio
 | `npm run build` | Compiles and minifies and optimizes the files in the assets folder. The generated compiled and optimized files are located in the `dist/` folder. This is what _must be run_ before publishing the project. This is also the build command to be run by external deployment services such as Netlify. The publishable files are then located in the `dist/` folder. |
 | `npm run clean` | Deletes the current `/dist` folder and cache folders.                                                                                                                                                                                                                                                                                                               |
 | `npm run test`  | Displays a success message if everything is working as expected.                                                                                                                                                                                                                                                                                                    |
-
-## Need help? / Want to help out?
-
-Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
-
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
