@@ -1,5 +1,50 @@
-.uoc-footer {
-  margin-top: 1.5rem;
-  font-size: .75rem;
-  text-align: center;
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: $secondary-color;
+  color: $font-color-light;
+  font-size: .85rem;
+
+  a {
+    color: $font-color-light;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: $mq-min-width) {
+    flex-direction: row;
+  }
+}
+
+.footer-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin: 0;
+    padding: .25rem;
+  }
+}
+
+.footer-right {
+  display: flex;
+  @media screen and (min-width: $mq-min-width) {
+    flex-direction: row;
+  }
+}
+
+.footer-social {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 0;
+  padding: .5rem;
+
+  li {
+    list-style: none;
+  }
 }
