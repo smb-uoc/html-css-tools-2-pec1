@@ -1,16 +1,9 @@
-/**
- * Import dependencies from node_modules
- * see commented examples below
- */
+const themeToggleButton = document.getElementById("theme-toggle");
+const body = document.body;
 
-// import 'some-node-module';
-// import SomeModule from 'some-node-module';
+function toggleTheme() {
+  body.classList.toggle("theme-light");
+  body.classList.toggle("theme-dark");
+}
 
-/**
- * Write any other JavaScript below
- */
-
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
+themeToggleButton.addEventListener("click", toggleTheme);
