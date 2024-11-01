@@ -12,7 +12,7 @@ footer {
     text-decoration: none;
   }
 
-  @media screen and (min-width: $mq-min-width) {
+  @media screen and (min-width: $mq-medium-min-width) {
     flex-direction: row;
   }
 }
@@ -32,7 +32,7 @@ footer {
 
 .footer-right {
   display: flex;
-  @media screen and (min-width: $mq-min-width) {
+  @media screen and (min-width: $mq-medium-min-width) {
     flex-direction: row;
   }
 }

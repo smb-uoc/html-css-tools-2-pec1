@@ -1,0 +1,13 @@
+a:hover {
+  color: $hover-color;
+}
+
+footer img:hover {
+  opacity: .5;
+}
+
+.navigation li:hover {
+  border-radius: 3px;
+  background-color: $bg-color-light;
+}
+

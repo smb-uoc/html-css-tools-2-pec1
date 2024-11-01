@@ -4,15 +4,18 @@ $font-family-sans-serif: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Robot
   "Helvetica Neue", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
+$font-size-base: 16px;
+$line-height-base: 24px;
 
 $primary-color: rgb(34, 34, 34);
 $secondary-color: rgb(57, 166, 200);
 $hover-color: rgb(131, 57, 200);
 
-$bg-color-dark: rgb(34, 34, 34);
+$bg-color-dark: rgb(69, 67, 67);
 $font-color-light: rgb(255, 255, 255);
 
 $bg-color-light: rgb(193, 192, 192);
 $font-color-dark: $primary-color;
 
-$mq-min-width: 420px;
+$mq-medium-min-width: 420px;
+$mq-large-min-width: 660px;

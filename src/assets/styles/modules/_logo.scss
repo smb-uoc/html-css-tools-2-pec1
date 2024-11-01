@@ -1,10 +1,23 @@
-.uoc-logo {
-  display: block;
-  width: 100%;
-  height: auto;
+.logo-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: $font-color-light;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+
+  span {
+    padding: 0 .25rem;
+  }
 }
 
-.uoc-logo.logo200 {
+.logo-img {
   width: 100%;
-  max-width: 200px;
+  max-width: 85px;
 }
