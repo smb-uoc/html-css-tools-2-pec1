@@ -24,7 +24,16 @@
  * It's a best practice to use a different partial for each page
  */
 
-@import "layouts/home";
+@import "base/base";
+
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/main";
+
+@import "modules/logo";
+
+@import "themes/theme-light";
+@import "themes/theme-dark";
 
 /**
  * Do NOT include anything else in this file!

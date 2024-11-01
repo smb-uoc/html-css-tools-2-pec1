@@ -1,0 +1,16 @@
+.uoc-logo {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+
+  @media (min-width: $mq-min-width) {
+    max-width: none;
+  }
+}
+
+.uoc-logo.logo-20 {
+  width: 20%;
+}

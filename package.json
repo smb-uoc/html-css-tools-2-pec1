@@ -11,7 +11,7 @@
     "build": "npm-run-all clean stylelint parcel:build",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'",
     "stylelint": "stylelint src/**/*.scss",
-    "validate": "npm-run-all stylelint build validate-css validate-html",
+    "validate": "npm-run-all build validate-css validate-html",
     "validate-css": "css-validator",
     "validate-html": "html-validator ./dist"
   },
